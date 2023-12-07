@@ -1,0 +1,125 @@
+@media (max-width: 768px) {
+  .burger-menu {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .header button {
+    display: none;
+  }
+
+  .hero-content h1 {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 68px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .customers-content {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .partners-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+  }
+  .partners-content img {
+    width: 100px;
+    gap: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .project-content {
+    width: 480px;
+    height: 480px;
+  }
+
+  @media (max-width: 480px) {
+    .project-content h1 {
+      flex-wrap: wrap;
+      width: 250px;
+      color: #fff;
+      text-align: center;
+      font-family: Anton;
+      font-size: 32px;
+      font-weight: 400;
+      text-transform: capitalize;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .service-content {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .footer {
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 480px;
+      height: 1450px;
+      padding: 20px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+  .message {
+    flex-wrap: wrap;
+    margin-top:-330px;
+  }
+  .message h2 {
+    width: 350px;
+    height: 65px;
+  }
+  .message p {  
+   width: 330px;
+   height: 25px;
+   text-align: center;
+   margin-left: 70px;
+}
+}
+
+@media (max-width: 480px) {
+  .name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .mess {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+  }
+    .mess input {
+      width: 312px;
+      height: 124px;
+    }
+  }
+
+  .mess button {
+    width: 160px;
+    height: 47px;
+  }
+
+  .mess p {
+    width: 400px;
+    margin-left: 20px;
+  }
